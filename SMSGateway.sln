@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSGateway.Android", "SMSGateway\SMSGateway.Android\SMSGateway.Android.csproj", "{E981895E-BDC2-4B2E-8487-E0838916537B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSGateway", "SMSGateway\SMSGateway\SMSGateway.csproj", "{AAE7640D-F380-49F9-B4E7-02071CC549BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E981895E-BDC2-4B2E-8487-E0838916537B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E981895E-BDC2-4B2E-8487-E0838916537B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E981895E-BDC2-4B2E-8487-E0838916537B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E981895E-BDC2-4B2E-8487-E0838916537B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E981895E-BDC2-4B2E-8487-E0838916537B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E981895E-BDC2-4B2E-8487-E0838916537B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AAE7640D-F380-49F9-B4E7-02071CC549BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE7640D-F380-49F9-B4E7-02071CC549BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE7640D-F380-49F9-B4E7-02071CC549BB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AAE7640D-F380-49F9-B4E7-02071CC549BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE7640D-F380-49F9-B4E7-02071CC549BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE7640D-F380-49F9-B4E7-02071CC549BB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75034512-E8A8-4C0B-9D6B-858790AA88E0}
+	EndGlobalSection
+EndGlobal
