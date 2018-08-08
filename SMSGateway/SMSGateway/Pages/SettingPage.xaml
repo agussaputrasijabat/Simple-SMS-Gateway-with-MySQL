@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SMSGateway.Pages.SettingPage"
+             Title="Pengaturan">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Simpan" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <TableView Intent="Settings">
+            <TableRoot>
+                <TableSection Title="Pengaturan">
+                    <EntryCell x:Name="MySQLServer" Label="MySQL Server" Placeholder="MySQL Server" Text="{Binding MySQLServer}" Completed="EntryCell_Completed"/>
+                    <EntryCell x:Name="MySQLUser" Label="MySQL User" Placeholder="MySQL User" Text="{Binding MySQLUser}" Completed="EntryCell_Completed_1"/>
+                    <EntryCell x:Name="MySQLPassword" Label="MySQL Password" Placeholder="MySQL Password" Text="{Binding MySQLPassword}" Completed="EntryCell_Completed_2"/>
+                    <EntryCell x:Name="MySQLDatabase" Label="MySQL Database" Placeholder="MySQL Database" Text="{Binding MySQLDatabase}" Completed="EntryCell_Completed_3"/>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>
